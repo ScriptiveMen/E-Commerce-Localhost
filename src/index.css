@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: HelveticaNowDisplay;
+  src: url(./font/HelveticaNowDisplay-Regular.ttf);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "HelveticaNowDisplay";
+  background-color: #fdfbf5;
+}
+
+.style-text {
+  writing-mode: sideways-lr;
+}
